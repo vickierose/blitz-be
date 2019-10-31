@@ -1,0 +1,29 @@
+{
+  "name": "blitz-be",
+  "version": "1.0.0",
+  "description": "Backend project for [Blitz](https://github.com/vickierose/blitz)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickierose/blitz-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickierose/blitz-be/issues"
+  },
+  "homepage": "https://github.com/vickierose/blitz-be#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.4",
+    "nodemon": "^1.19.4"
+  }
+}
