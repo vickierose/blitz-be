@@ -9,10 +9,15 @@ const LevelSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  isLast: {
+    type: Boolean,
+  },
+  isFirst: {
+    type: Boolean,
+  },
   items: {
     type:[String]
   }
 });
-
 
 module.exports = mongoose.model('Level', LevelSchema);
